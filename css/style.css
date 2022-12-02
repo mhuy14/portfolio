@@ -1,0 +1,79 @@
+body {
+    font-family: 'Comfortaa', cursive;
+    font-size: 1.2rem;
+}
+nav img{
+    width: 2rem;
+}
+.button2 {
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 6px 12px;
+    text-align: center;
+    text-decoration: none;  
+    display: inline-block;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-weight:700;
+    margin-right: 0.5rem;
+}
+.button1 {
+    color: rgb(0, 0, 0);
+    border: 2px solid rgba(0, 0, 0, 0);
+    border-radius: 0.3rem;
+}
+.button1:hover {
+    background-color: #AAD1F0;
+    color: #006DF0;
+    border: 2px solid rgba(0, 0, 0, 0);
+    border-radius: 0.3rem;
+}
+@media (max-width: 991.98px){
+    .logo{
+    transform: translateX(1.7rem);
+    }
+    .button2 {
+        border: none;
+        color: rgb(0, 0, 0);
+        padding: 6px 12px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        transition-duration: 0.4s;
+        cursor: pointer;
+    }
+    .button1 {
+        width: 100%;
+        text-align: start;
+        color: rgb(11, 11, 11);
+        border: 2px solid rgba(0, 0, 0, 0);
+        border-radius: 0.3rem;
+        margin-left: 0;
+    }
+    .button1:hover {
+        background-color: #AAD1F0;
+        color: #006DF0;
+        border: 2px solid rgba(0, 0, 0, 0);
+        border-radius: 0.3rem;
+    }
+}
+.navbar{
+    background-color: white;
+}
+.container {
+    margin: 9rem auto;
+}
+.profileimg{
+    width: 80%;
+}
+.name {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    color:#006DF0;
+    margin-top: -1.5rem;
+}
+.job {
+    margin-top: -0.5rem;
+}
+

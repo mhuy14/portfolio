@@ -1,3 +1,6 @@
+.bg{
+    background-color: #f9f9f9;
+}
 body {
     font-family: 'Comfortaa', cursive;
     font-size: 1.2rem;
@@ -5,75 +8,91 @@ body {
 nav img{
     width: 2rem;
 }
-.button2 {
+.button {
     border: none;
-    color: rgb(0, 0, 0);
     padding: 6px 12px;
     text-align: center;
-    text-decoration: none;  
     display: inline-block;
     transition-duration: 0.4s;
     cursor: pointer;
     font-weight:700;
-    margin-right: 0.5rem;
-}
-.button1 {
-    color: rgb(0, 0, 0);
-    border: 2px solid rgba(0, 0, 0, 0);
     border-radius: 0.3rem;
+}
+.button1{
+    margin-right: 0.5rem;
+    background: transparent;
+    color: black;
 }
 .button1:hover {
-    background-color: #AAD1F0;
-    color: #006DF0;
-    border: 2px solid rgba(0, 0, 0, 0);
-    border-radius: 0.3rem;
+    background: #2d83b6;
+    color: #dbecf4;
 }
 @media (max-width: 991.98px){
     .logo{
     transform: translateX(1.7rem);
     }
-    .button2 {
-        border: none;
-        color: rgb(0, 0, 0);
-        padding: 6px 12px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        transition-duration: 0.4s;
-        cursor: pointer;
-    }
     .button1 {
         width: 100%;
         text-align: start;
-        color: rgb(11, 11, 11);
-        border: 2px solid rgba(0, 0, 0, 0);
-        border-radius: 0.3rem;
-        margin-left: 0;
     }
-    .button1:hover {
-        background-color: #AAD1F0;
-        color: #006DF0;
-        border: 2px solid rgba(0, 0, 0, 0);
-        border-radius: 0.3rem;
+}
+@media (min-width: 1399.98px){
+    .bio{
+        margin-top: 2rem;
     }
 }
 .navbar{
     background-color: white;
 }
 .container {
-    margin: 9rem auto;
+    margin:0 auto;
+}
+.section1{
+    padding-top: 8rem ;
 }
 .profileimg{
+    color: #53a6d8;
     width: 80%;
 }
 .name {
     font-family: 'Quicksand', sans-serif;
     font-weight: 700;
-    font-size: 3rem;
-    color:#006DF0;
+
+    color:#015c93;
     margin-top: -1.5rem;
 }
 .job {
     margin-top: -0.5rem;
 }
-
+.btn-primary {
+    border: 2px solid rgba(0, 0, 0, 0);
+    border-radius: 0.3rem;
+    padding: 6px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.subtitle{
+    color: gray;
+}
+.button2{
+    background: linear-gradient(to right,#0f5ca0 0%,#012440 100%);
+    color: white;
+}
+.button2:hover {
+    transform: scale(1.1);
+}
+.titlespacing{
+    margin-top: 8rem;
+    margin-bottom: 2rem;
+}
+br.responsive {
+    display: inline; 
+}
+@media (max-width: 767.98px) {
+    .br1.responsive{
+        display:none
+    }
+  }

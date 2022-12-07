@@ -69,7 +69,7 @@ nav img{
 }
 .button2:hover {
     color: whitesmoke;
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 .titlespacing1{
     margin-bottom: -1rem;
@@ -164,7 +164,6 @@ nav img{
     border: 3px solid #012440;
     padding:8px 16px;
     background: transparent;
-    border-color: linear-gradient(to right,#0f5ca0 0%,#012440 100%);
     color: #012440;
 }
 .button3:hover {
@@ -183,36 +182,32 @@ nav img{
     border: 10px solid transparent;
     background-color: #f9f9f9;
     border-radius: 2.3rem;
-  }
-  .boxed:before {
+    
+}
+.boxed:before {
     content: "";
     position: absolute;
     inset: 0;
     z-index: -1;
     margin: -5px;
-    background-image: linear-gradient(to right top, #2d83b6, #012440);
+    background-image: linear-gradient(to right top, #80aac2, #012440);
     border-radius: 2rem;
-  }
-  .button4{
-    border: 3px solid #2d83b6;
+    box-shadow: 2px 2px 25px #a1a1a1;
+}
+.button4{
+    border: 3px solid #848484;
     padding:8px 16px;
     background: transparent;
-    border-color: linear-gradient(to right,#0f5ca0 0%,#012440 100%);
-    color: #2d83b6;
+    color: #848484;
 }
-.button4:hover {
+.button5{
+    border: 3px solid #2d83b6;
+    padding:8px 16px;
     background: #2d83b6;
     color: whitesmoke;
 }
-.button5{
-    border: 3px solid #012440;
-    padding:8px 16px;
-    background: #012440;
-    border-color: linear-gradient(to right,#0f5ca0 0%,#012440 100%);
-    color: whitesmoke;
-}
 .button5:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
     color: whitesmoke;
 }
 @media (max-width: 767.98px){

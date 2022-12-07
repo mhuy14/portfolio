@@ -6,13 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/cc31f1ab40.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+<!-- CSS -->    
     <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
 </head>
 <body>
-  <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-smooth-scroll="true" class="scrollspy-example bg" tabindex="0">
-    <!-- --Menu Bar-- -->
+      <!-- --Menu Bar-- -->
       <nav class="navbar navbar-expand-lg fixed-top shadow">
         <div class="container-fluid">
           <img class="mx-auto mx-lg-5 logo" src="images/logo.svg" alt="logo">
@@ -38,6 +38,7 @@
         </div>
       </nav>
     <!-- --End-- -->
+    <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-smooth-scroll="true" class="scrollspy-example bg" tabindex="0"></div>
   <!-- --About-- -->
     <!-- --Content-- -->
       <div class="container section1" id="ABOUTa">
@@ -48,8 +49,8 @@
           <div class="col-12 col-lg-6 col-xl-5 ">
             <div class="row text-start pt-3 pt-md-4 pt-lg-3 pt-xl-5 mx-5 mx-lg-0">
               <p class="bio"> Hello, I'm</p>
-              <h1 class="name display-5">Nguyen Minh Huy</h1>
-              <h4 class="job subtitle">Graphic Designer</h4>
+              <h1 class="name display-5 xanh">Nguyen Minh Huy</h1>
+              <h3 class="job subtitle">Graphic Designer</h3>
               <p class="pt-lg-1 pt-xl-2">I’ve start the graphic journey at the age of 27. I 
                   love everything that has to do with design. For 
                   me, design is not a job, it’s life style and i feel 
@@ -57,84 +58,191 @@
               </p>
             </div>
             <div class="row text-center mx-5 mx-md-0">
-              <button type="button" class="button button2 my-3 mt-lg-4 mt-xl-5 mx-auto col col-md-6 col-lg-7 col-xl-7"><b>Download my CV</b></button>
+              <a type="button" target="_blank" class="button button2 my-3 mt-lg-4 mt-xl-5 mx-auto col col-md-6 col-lg-7 col-xl-7" href="https://drive.google.com/file/d/1UVktdFdKMB2GEEtGyxxG1ZqS7WSiArkI/view?usp=share_link"><b>Download my CV</b></a>
             </div>
           </div>
         </div>
       </div>
     <!-- --End-- -->
-    <h1 class="name container display-5 titlespacing">EDUCATION/ EXPERIENCE</h1>
+    <h1 class="name container display-5 titlespacing titlespacing1 xanh">EDUCATION/EXPERIENCE</h1>
     <!-- --Education-- -->
-      <div class="container border border-5" id="ABOUTa">
+      <div class="container" id="EDUCATION">
         <div class="row">
-          <div class="col-12 col-lg col-xl-6 text-center text-lg-start text-xl-center my-auto">
-            <img class="border border-2 rounded-5 profileimg" src="images/machine-learning.png" alt="">
+          <div class="col-12 col-lg col-xl-6 text-center my-auto">
+            <img class="eduimg" src="images/machine-learning.png" alt="">
           </div>
-          <div class="col-12 col-lg-6 col-xl-5 border border-5">
+          <div class="col-12 col-lg-6 col-xl-5">
             <div class="row text-start mt-3 mt-md-4 mt-lg-3 mt-xl-5 mx-0 mx-sm-5 mx-lg-0">
               <p class="text-end col-5 col-lg-4"> 2014 - 2021 <br>
-                    HUCE <br> <br class="d-md-none">
+                    <span class="subtitle">HUCE</span> <br> <br class="d-md-none">
                     2017 - 2019 <br>
                     2019 <br>
-                    At Thang Long Opera <br>
-                    Hotel <br>
+                    <span class="subtitle">At Thang Long Opera <br>
+                    Hotel</span> <br>
                     2020 <br>
-                    At Giovanni <br>
+                    <span class="subtitle">At Giovanni</span> <br>
                     2020 - 2021 <br>
-                    At Pizza 4p’s <br>
-                    2021 - 2022 <br> <br class="d-md-none">
-                    2022 - Now <br>
-                    FPT Arena
+                    <span class="subtitle">At Pizza 4p’s</span> <br>
+                    2021 - 2022 <br> <br class="d-md-none d-lg-inline d-xxl-none">
+                    2022 - <span class="xanh fw-bold">Now</span> <br>
+                    <span class="subtitle">FPT Arena</span>
               </p>
-              <p class="col-1 border-right border-dark bo"> 
-                <i class="fa-solid fa-circle fa-2xs"></i> <br> <br> <br class="d-md-none">
-                <i class="fa-solid fa-circle fa-2xs"></i>  <br class="d-md-none">
-                <i class="fa-solid fa-circle fa-2xs"></i>  <br> <br> <br> <br class="d-none d-md-inline"> <br class="d-md-none">
-                <i class="fa-solid fa-circle fa-2xs"></i>  <br> <br class="d-none d-md-inline"> <br class="d-md-none">
-                <i class="fa-solid fa-circle fa-2xs"></i>  <br> <br class="d-none d-md-inline"> <br class="d-none d-lg-inline"> <br class="d-md-none">
-                <i class="fa-solid fa-circle fa-2xs"></i>  <br class="d-md-none"> <br class="d-md-none d-lg-inline"> <br class="d-none d-lg-inline d-xxl-none">
-                <i class="fa-solid fa-circle fa-2xs"></i>          
-              </p>
+              <div class="col-1 border-0 border-dark line1"> 
+                <div class="col border border-1 border-dark line"></div>
+                <div class="col">
+                  <i class="fa-solid fa-circle fa-2xs position-relative"></i> <br> <br> <br class="d-md-none">
+                  <i class="fa-solid fa-circle fa-2xs position-relative"></i>  <br class="d-md-none">
+                  <i class="fa-solid fa-circle fa-2xs position-relative"></i>  <br> <br> <br> <br class="d-none d-md-inline"> <br class="d-md-none">
+                  <i class="fa-solid fa-circle fa-2xs position-relative"></i>  <br> <br class="d-none d-md-inline"> <br class="d-md-none">
+                  <i class="fa-solid fa-circle fa-2xs position-relative"></i>  <br> <br class="d-none d-md-inline d-lg-none"> <br class="d-none d-lg-inline"> <br class="d-md-none">
+                  <i class="fa-solid fa-circle fa-2xs position-relative"></i>  <br class="d-md-none"> <br class="d-md-none d-lg-inline "> <br class="d-none d-lg-inline d-xxl-none">
+                  <i class="fa-solid fa-circle fa-2xs position-relative"></i>
+                </div>    
+              </div>
               <p class="col"> Learn <br class="d-md-none">Construction management <br>
                     Grab, Shipper <br>
                     Bartender <br> <br> <br> <br class="d-none d-md-inline"> <br class="d-md-none">
                     Shop assistant <br> <br>
-                    Pizza chef <br> <br class="d-none d-sm-inline"> <br class="d-sm-none d-lg-inline">
+                    Pizza chef <br> <br class="d-none d-sm-inline"> <br class="d-sm-none d-lg-inline d-lg-none">
                     Construction supervision <br>
-                    Learn Multimedia Designer <br>
-              </p>
+                    <span class="xanh fw-bold">Learn Multimedia Designer</span>
+
             </div>
           </div>
         </div>
       </div>
     <!-- --End-- -->
   <!-- --End-- -->
-
+  <h1 class="name container display-5 titlespacing titlespacing2 xanh" id="SKILLa">TECHNICAL SKILL</h1>
   <!-- --Skill-- -->
-    <div class="my-5 row py-5 text-center mx-5" id="SKILLa">
-      <p class="welcome pt-5 mb-1"><i>Welcome To Our Studio!</i></p>
-      <h1 class="b pt-0"><b>IT'S NICE TO MEET YOU</b></h1>
-        <button type="button" class="btn btn-warning  my-5 mx-auto col-lg-3 col-sm-4 col-8"><b>TELL ME MORE</b></button>
-      </div>
-  <!-- --End-- -->
-
-  <!-- --Porfolio-- -->
-      <div class="my-5 row py-5 text-center mx-5" id="PORFOLIOa">
-        <p class="welcome pt-5 mb-1"><i>Welcome To Our Studio!</i></p>
-        <h1 class="b pt-0"><b>IT'S NICE TO MEET YOU</b></h1>
-        <button type="button" class="btn btn-warning  my-5 mx-auto col-lg-3 col-sm-4 col-8"><b>TELL ME MORE</b></button>
-      </div>
-  <!-- --End-- -->
-  <!-- --Contact-- -->
-    <div class="my-5 row py-5 text-center mx-5" id="CONTACTa">
-      <p class="welcome pt-5 mb-1"><i>Welcome To Our Studio!</i></p>
-      <h1 class="b pt-0"><b>IT'S NICE TO MEET YOU</b></h1>
-      <button type="button" class="btn btn-warning  my-5 mx-auto col-lg-3 col-sm-4 col-8"><b>TELL ME MORE</b></button>
+  <div class="container">
+  <div class="slide-container container swiper">
+    <div class="slide-content">
+        <div class="card-wrapper swiper-wrapper">
+            <div class="card swiper-slide">
+                <div class="row"> <img src="images/graphic-design.png" class="py-5 mx-auto anhrs" alt=""></div>
+                <h3 class="text-center">Graphic <br class="d-inline d-sm-none d-lg-inline d-xl-none"> Design</h3>
+                <div class="row m-4 text-center">
+                    <div class="col px-1 d-lg-none d-xl-inline"></div>
+                    <div class="col px-1"></div>
+                    <div class="col px-1"></div>
+                    <div class="col px-1"><img src="images/Photoshop_CC.png " class="w-100" alt=""></div>
+                    <div class="col px-1"><img src="images/Lightroom.png" class="w-100" alt=""></div>
+                    <div class="col px-1 d-none d-md-inline d-lg-none"></div>
+                </div>
+            </div>
+            <div class="card swiper-slide">
+                <div class="row"> <img src="images/branding.png" class="py-5 mx-auto anhrs" alt=""></div>
+                <h3 class="text-center">Branding <br class="d-inline d-sm-none d-lg-inline d-xl-none">Design</h3>
+                <div class="row m-4 text-center"> 
+                    <div class="col px-1 d-lg-none d-xl-inline"></div>
+                    <div class="col px-1"></div>
+                    <div class="col px-1"></div>
+                    <div class="col px-1"><img src="images/Illustrator.png" class="w-100" alt=""></div>
+                    <div class="col px-1"><img src="images/InDesign.png" class="w-100" alt=""></div>
+                    <div class="col px-1 d-none d-md-inline d-lg-none"></div>
+                  </div>
+            </div>
+            <div class="card swiper-slide">
+                <div class="row"> <img src="images/uiux.png" class=" py-5 mx-auto anhrs" alt=""></div>                        
+                <h3 class="text-center">UI/UX <br class="d-inline d-sm-none d-lg-inline d-xl-none">Design</h3>
+                <div class="row m-4 text-center"> 
+                    <div class="col px-1 d-lg-none d-xl-inline"></div>
+                    <div class="col px-1"><img src="images/XD_CC.png" class="w-100" alt=""></div>
+                    <div class="col px-1"><img src="images/Animate_CC.png" class="w-100" alt=""></div>
+                    <div class="col px-1"><img src="images/html.png" class="w-100" alt=""></div>
+                    <div class="col px-1"><img src="images/css.png" class="w-100" alt=""></div>
+                    <div class="col px-1 d-none d-md-inline d-lg-none"></div>
+                  </div>
+            </div>
+        </div>
     </div>
+    <div class="swiper-pagination d-lg-none"></div>
+</div>
+</div>
+  <!-- --End-- -->
+<h1 class="name container display-5 titlespacing xanh position-relative" id="PORFOLIOa">PORFOLIO</h1>
+  <!-- --Porfolio-- -->
+  <div class="container mb-5">
+    <div class="tabset container">
+      <!-- Tab 1 -->
+      <input type="radio" name="tabset" id="tab1" aria-controls="Poster" checked>
+      <label for="tab1">Poster</label>
+      <!-- Tab 2 -->
+      <input type="radio" name="tabset" id="tab2" aria-controls="Magazine">
+      <label for="tab2">Magazine</label>
+      <!-- Tab 3 -->
+      <input type="radio" name="tabset" id="tab3" aria-controls="Branding">
+      <label for="tab3">Branding & Package</label>
+      
+      <div class="tab-panels container">
+        <section id="Poster" class="tab-panel">
+          <div class="row">
+            <div class="text-center col-12 col-lg-6">
+              <img src="images/poster4.jpg" class="w-100 rounded-5 border border-3 mb-4" alt="">
+            </div>
+            <div class="text-center col-12 col-lg-6">
+              <img src="images/poster2.jpg" class="w-100 rounded-5 border border-3 mb-4" alt="">
+            </div>
+            <div class="text-center col-12 col-lg-6">
+              <img src="images/poster3.jpg" class="w-100 rounded-5 border border-3 mb-4" alt="">
+            </div>
+            <div class="text-center col-12 col-lg-6">
+              <img src="images/poster1.jpg" class="w-100 rounded-5 border border-3 mb-4" alt="">
+            </div>
+          </div>
+        </section>
+        <section id="Magazine" class="tab-panel">
+          <div class="row">
+            <div class="text-center col-12 col-lg-6">
+              <img src="images/MagazineMockupV1.jpg" class="w-100 rounded-5 border border-3 mb-4" alt="">
+            </div>
+            <div class="text-center col-12 col-lg-6">
+              <img src="images/MagazineMockupV2.jpg" class="w-100 rounded-5 border border-3 mb-4" alt="">
+            </div>
+          </div>
+        </section>
+        <section id="Branding" class="tab-panel">
+          <div class="row">
+            <div class="text-center col-12 col-lg-5 mb-4">
+              <img src="images/chocofruit.jpg" class="w-100 rounded-5 border border-3 mb-4" alt="">
+            </div>
+            <div class="text-center col-12 col-lg mb-4">
+              <img src="images/package.png" class="w-100 rounded-5 border border-3 mb-4" alt="">
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+    <div class="mx-5 mb-1">
+      <a type="button" target="_blank" class="button button3 rounded-5" href="https://www.behance.net/huyminh32">
+        <b>My Behance <i class="fa-solid fa-arrow-right"></b></i>
+      </a>
+    </div>
+  </div>
+  <!-- --End-- -->
+    <!-- --Contact-- -->
+  <div class="container">
+  <div class="boxed mx-auto my-5 text-center">
+      <h1 class="name display-5 mt-3 pt-5" >CONTACT</h1>
+      <div class="container pt-0 mb-5 ms-2 mx-sm-5 mx-md-0 text-start text-md-center">
+          <a type="button" target="_blank" class="button button4 rounded-5 mx-2">
+            <b><i class="fa-solid fa-phone"></i> (+84) 96 929 7551</b></i>
+          </a> <br class="d-inline d-sm-none">
+          <a type="button" target="_blank" class="button button5 rounded-5 mt-2 mt-xl-0 mx-2" href="mailto:mhuy14195@gmail.com">
+            <b><i class="fa-regular fa-envelope"></i> mhuy14195@gmail.com </b></i>
+          </a>
+      </div>
+  </div>
+  </div>
   <!-- --End-- -->
   </div>
+    <!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
 <script src="https://kit.fontawesome.com/cc31f1ab40.js" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
 </body>
 </html>
